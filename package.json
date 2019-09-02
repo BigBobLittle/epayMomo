@@ -1,14 +1,28 @@
 {
   "name": "@bigboblittle/epaymomo",
   "version": "1.0.0",
-  "description": "",
+  "description": "this is an unofficial node package for [epaygh](https://epaygh.com/) momo ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "epay momo",
+    "send epay momo prompt",
+    "simple epay mobile money",
+    "recieve mobile money ",
+    "recieve momo on all networks in ghana",
+    "epay",
+    "momo",
+    "send prompt",
+    "momo prompt",
+    "momo quick pay",
+    "big bob little",
+    "nodejs recieve mobile money",
+    "mobile payments"],
+  "author": "bigboblittle",
+  "repository": "bigboblittle/epayMomo",
+  "license": "MIT",
   "dependencies": {
     "chalk": "^2.4.2",
     "moment": "^2.24.0",

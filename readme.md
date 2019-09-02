@@ -1,2 +1,2 @@
-# epayghMomo
+# epayghMomo [![GitHub issues](https://img.shields.io/github/issues/BigBobLittle/epayMomo)](https://github.com/BigBobLittle/epayMomo/issues) [![GitHub forks](https://img.shields.io/github/forks/BigBobLittle/epayMomo)](https://github.com/BigBobLittle/epayMomo/network)[![GitHub stars](https://img.shields.io/github/stars/BigBobLittle/epayMomo)](https://github.com/BigBobLittle/epayMomo/stargazers)[![Twitter](https://img.shields.io/twitter/url/https/github.com/BigBobLittle/epayMomo?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FBigBobLittle%2FepayMomo)
 this is an unofficial node package for [epaygh](https://epaygh.com/) momo 
