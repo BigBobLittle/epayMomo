@@ -53,7 +53,7 @@ app.listen(process.env.PORT || 3000);
 
 ## Errors 
 i have customized the errors from this package starting with `BIGBOBLITTLE` followed by the error itself 
-![alt text](./example/epaygh/error2.png)  
+![alt text](https://github.com/BigBobLittle/epayMomo/blob/master/example/epaygh/error2.PNG)  
 
 ## Note 
 
