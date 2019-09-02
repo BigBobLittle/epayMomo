@@ -4,8 +4,7 @@ const epayMomo = require('../index'); //replace package name here
 
 app.post('/bob', async(req,res,next) => {
  try {
-
-    //load your keys here... remember it's a good practice to save such keys in your .env
+       //load your keys here... remember it's a good practice to save such keys in your .env
     let epayConfig = {
         merchant_key: "YOUR-MERCHANT-KEY-HERE",
         app_id: "APP_ID",
@@ -14,14 +13,13 @@ app.post('/bob', async(req,res,next) => {
 
 
       //pass in the required info the the customer you're chargin
-epayMomo("username", 1, "0543892565", epayConfig).then((value) => {
+      epayMomo("username", 1, "0543892565", epayConfig).then((value) => {
 
     //wait for a response when the promise is resolved 
      console.log(value);
-  
-})
+   })
 
- } catch (error) {
+} catch (error) {
      console.log(error)
  }
 })
