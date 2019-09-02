@@ -93,7 +93,7 @@ For this reason, you have to always make sure the phonenumber you pass to this p
 however, i've provided that field, but without it, you can still charge your customers. 
 
 6. Finally, you'll need your `reference` to get your `transaction status`. Its always part of the ``success response`` from the api
-![alt text](./example/epaygh/paymentsuccessful.png)
+![alt text](https://github.com/BigBobLittle/epayMomo/blob/master/example/epaygh/paymentSuccessful.PNG)
 
 
 
