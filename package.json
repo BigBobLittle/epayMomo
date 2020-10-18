@@ -1,6 +1,6 @@
 {
   "name": "@bigboblittle/epaymomo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "this is an unofficial node package for [epaygh](https://epaygh.com/) momo ",
   "main": "index.js",
   "scripts": {
