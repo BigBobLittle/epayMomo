@@ -94,6 +94,7 @@ whichMomoNetwork = phonenumber => {
     case "054":
     case "024":
     case "055":
+      case "059":
       return (network = "mtn");
 
     //?vodafon
@@ -145,13 +146,13 @@ async function sendMomoPrompt(username, amount, email, phonenumber, config) {
 
     //if authorization is available, check if it's not expired, if expired:: create new one
     if (AuthorizationToken) {
-      let expires_at = await tokenStorage.get("expires_at");
-      let whenExpires = moment(expires_at);
-      let checkDate = moment().isSameOrBefore(whenExpires);
+      const expires_at =  tokenStorage.get("expires_at");
+      const whenExpires = moment(expires_at);
+      const checkDate = moment().isSameOrBefore(whenExpires);
 
       if (!checkDate) {
         await generateAuthourizationToken(config);
-        AuthorizationToken = await tokenStorage.get("access_token");
+        AuthorizationToken =  tokenStorage.get("access_token");
       }
     }
 
@@ -199,9 +200,9 @@ async function sendMomoPrompt(username, amount, email, phonenumber, config) {
     }
 
     //get the momo network
-    let momoNetwork = whichMomoNetwork(phonenumber);
+    const momoNetwork = whichMomoNetwork(phonenumber);
 
-    let momoParams = {
+    const momoParams = {
       reference:  shortid.generate(),
       amount: parseFloat(amount),
       payment_method: "momo",
@@ -215,7 +216,7 @@ async function sendMomoPrompt(username, amount, email, phonenumber, config) {
 
     //lets hit the create route with our data to  send momo prompt to the users' phone
 
-    let options = {
+    const options = {
       method: "POST",
       uri: `${epayghBaseUrl}/charge`,
       json: true,
