@@ -1,12 +1,14 @@
 {
   "name": "@bigboblittle/epaymomo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "this is an unofficial node package for [epaygh](https://epaygh.com/) momo ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "keywords": [
     "epay momo",
     "send epay momo prompt",
@@ -23,7 +25,8 @@
     "big bob little open source projects",
     "big bob little npm packages",
     "nodejs recieve mobile money from ghana ",
-    "mobile payments in ghana "],
+    "mobile payments in ghana "
+  ],
   "author": "bigboblittle",
   "repository": "bigboblittle/epayMomo",
   "license": "MIT",
